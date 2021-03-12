@@ -1,0 +1,55 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  }
+  html{
+    color:#222;
+    font-family;'Josefin Sans'
+    
+  }
+  body{
+    padding:2rem 2.5rem;
+    background: linear-gradient(#888, #222);
+  }
+  h1{ 
+    font-size:2rem;
+  }
+  h2{
+    font-size:1.25rem;
+      text-transfrom:upercase;
+      border-top:1px solid #888;
+      border-bottom:1px solid #888;
+    padding:1rem 0;
+  }
+  h3{
+    font-size:1.5rem;
+  }
+  section+section{
+    margin-top:2rem;
+  }
+  
+  a{
+    text-decoration:none;
+    color:inherit;
+    
+  }
+  .profile {
+    text-align:center;
+  }
+  .profile img{
+    border-redius:9999px;
+    width: 15rem;
+    height: 15rem;
+  }
+  .profile p{
+    color:#888;
+    margin-bottom: 1rem;
+  }
+  .resume{
+    display:grid;
+    grid-template-columns: 40% 1fr;
+      grid-gap:2rem;
+    background-color:white;
+      padding:2rem;
+  }
